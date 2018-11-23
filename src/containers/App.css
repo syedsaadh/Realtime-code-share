@@ -1,0 +1,87 @@
+.App {
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.App-header {
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0px 64px;
+}
+.App-header .extras {
+  margin-left: auto;
+}
+.App-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+}
+.App-title:active, .App-title:hover {
+  color: #fff;
+}
+.homepage {
+  display: flex;
+  padding: 0px 64px;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+}
+.codingpage {
+  height: calc(100vh - 80px);
+}
+.CodeMirror-scroll {
+  padding: 16px 32px;
+}
+.cm-s-dracula.CodeMirror {
+  padding: 0px;
+  height: calc(100vh - 80px);
+}
+p {
+  margin: 0;
+}
+.title {
+  font-size: 36px;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+.sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(124, 124, 124);
+  margin-bottom: 36px;
+  max-width: 500px;
+}
+.highlight {
+  color: #5ce198;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  line-height: 36px;
+  padding: 0 25px;
+  font-size: 14px;
+  border-radius: 58px;
+  text-decoration: none;
+  height: 36px;
+  background: transparent;
+  color: #e4e4e4;
+  border-color: #5ce198;
+  -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.btn:hover {
+  background: #5ce198;
+  color: black;
+}
