@@ -21,6 +21,7 @@
   font-weight: 700;
   line-height: 36px;
   text-decoration: none;
+  border-bottom: 1px dashed #5ce198;
 }
 .App-title:active, .App-title:hover {
   color: #fff;
